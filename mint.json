@@ -1,91 +1,66 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Browser Use",
   "logo": {
     "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "light": "/logo/light.svg",
+    "href": "https://browser-use.com"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#F97316",
+    "light": "#FFF7ED",
+    "dark": "#C2410C",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#F97316",
+      "to": "#FB923C"
     }
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "name": "Github",
+      "url": "https://github.com/browser-use/browser-use"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
+    "name": "Join Discord",
     "url": "https://dashboard.mintlify.com"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
-  "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
-    }
-  ],
+
   "navigation": [
     {
       "group": "Get Started",
+      "pages": ["introduction", "features", "quickstart"]
+    },
+    {
+      "group": "Try It Out",
+      "pages": ["try-it/gradio-ui", "try-it/online-demo"]
+    },
+    {
+      "group": "Customize",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "customize/custom-functions",
+        "customize/browser-settings",
+        "customize/persistent-browser",
+        "customize/agent-settings",
+        "customize/system-prompt",
+        "customize/local-browser",
+        "customize/langchain-models"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Development",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
-      ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "development/local-setup",
+        "development/contribution-guide",
+        "development/telemetry",
+        "development/roadmap"
       ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
+    "x": "https://x.com/gregpr07",
+    "github": "https://github.com/browser-use/browser-use",
+    "linkedin": "https://linkedin.com/company/browser-use"
   }
 }
