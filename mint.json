@@ -20,6 +20,10 @@
     {
       "name": "Github",
       "url": "https://github.com/browser-use/browser-use"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://x.com/gregpr07"
     }
   ],
   "topbarCtaButton": {
@@ -30,7 +34,7 @@
   "navigation": [
     {
       "group": "Get Started",
-      "pages": ["introduction", "features", "quickstart"]
+      "pages": ["introduction", "quickstart"]
     },
     {
       "group": "Customize",
@@ -46,7 +50,6 @@
       "group": "Development",
       "pages": [
         "development/local-setup",
-        "development/contribution-guide",
         "development/telemetry",
         "development/roadmap"
       ]
