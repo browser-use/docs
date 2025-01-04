@@ -24,7 +24,7 @@
   ],
   "topbarCtaButton": {
     "name": "Join Discord",
-    "url": "https://dashboard.mintlify.com"
+    "url": "https://link.browser-use.com/discord"
   },
 
   "navigation": [
@@ -33,19 +33,13 @@
       "pages": ["introduction", "features", "quickstart"]
     },
     {
-      "group": "Try It Out",
-      "pages": ["try-it/gradio-ui", "try-it/online-demo"]
-    },
-    {
       "group": "Customize",
       "pages": [
-        "customize/custom-functions",
-        "customize/browser-settings",
-        "customize/persistent-browser",
         "customize/agent-settings",
-        "customize/system-prompt",
-        "customize/local-browser",
-        "customize/langchain-models"
+        "customize/browser-settings",
+        "customize/custom-functions",
+        "customize/langchain-models",
+        "customize/system-prompt"
       ]
     },
     {
