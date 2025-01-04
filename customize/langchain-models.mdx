@@ -17,7 +17,11 @@ We have yet to test performance across all models. Currently, we recommend using
   environment variables before running the agent.
 </Note>
 
-## OpenAI
+## Supported Models
+
+All LangChain chat models are supported. We will document the most popular ones here.
+
+### OpenAI
 
 OpenAI's GPT-4o models are recommended for best performance.
 
@@ -44,7 +48,7 @@ Required environment variables:
 OPENAI_API_KEY=
 ```
 
-## Anthropic
+### Anthropic
 
 Claude models provide excellent performance and can handle complex tasks well.
 
@@ -72,7 +76,7 @@ And add the variable:
 ANTHROPIC_API_KEY=
 ```
 
-## Azure OpenAI
+### Azure OpenAI
 
 If you're using Azure OpenAI services, you can configure the model like this:
 
@@ -81,6 +85,7 @@ from langchain_openai import AzureChatOpenAI
 from browser_use import Agent
 from pydantic import SecretStr
 import os
+
 # Initialize the model
 llm = AzureChatOpenAI(
     model="gpt-4o",
@@ -102,3 +107,14 @@ Required environment variables:
 AZURE_OPENAI_ENDPOINT=https://your-endpoint.openai.azure.com/
 AZURE_OPENAI_KEY=
 ```
+
+## Coming soon
+
+(Sorry, we are working on it)
+
+- Gemini
+- Groq
+- DeepSeek
+- Github
+- Ollama
+- QWen
