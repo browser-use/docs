@@ -16,6 +16,11 @@
       "to": "#FB923C"
     }
   },
+  "feedback": {
+    "thumbsRating": true,
+    "raiseIssue": true,
+    "suggestEdit": true
+  },
   "topbarLinks": [
     {
       "name": "Github",
