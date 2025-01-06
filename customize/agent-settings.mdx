@@ -94,7 +94,7 @@ from browser_use import Agent, Browser
 from playwright.async_api import BrowserContext
 
 # Use specific browser context (preferred method)
-async with browser.new_context() as context:
+async with await browser.new_context() as context:
     agent = Agent(
         task=task2,
         llm=llm,

@@ -37,7 +37,7 @@ config = BrowserConfig(
 ### Additional Settings
 
 - **extra_chromium_args** (default: `[]`)  
-  Additional arguments passed to the browser at launch. See the [full list of available arguments](https://github.com/browser-use/browser-use/browser_use/browser/browser.py).
+  Additional arguments passed to the browser at launch. See the [full list of available arguments](https://github.com/browser-use/browser-use/blob/main/browser_use/browser/browser.py#L154).
 
 - **proxy** (default: `None`)  
   Standard Playwright proxy settings for using external proxy services.
@@ -92,7 +92,7 @@ config = BrowserConfig(
 The `BrowserContextConfig` class controls settings for individual browser contexts.
 
 ```python
-from browser_use.config import BrowserContextConfig
+from browser_use.browser.context import BrowserContextConfig
 
 config = BrowserContextConfig(
     cookies_file="path/to/cookies.json",
