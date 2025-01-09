@@ -72,6 +72,19 @@ config = BrowserConfig(
   Refer to their documentation for settings.
 </Note>
 
+### External Browser Provider (cdp)
+
+Connect to cloud or local Chrome instances using Chrome DevTools Protocol (CDP) for use with tools like `headless-shell` or `browserless`.
+
+```python
+config = BrowserConfig(
+    cdp_url="http://localhost:9222"
+)
+```
+
+- **cdp_url** (default: `None`)  
+  URL for connecting to a Chrome instance via CDP. Commonly used for debugging or connecting to locally running Chrome instances.
+
 ### Local Chrome Instance (binary)
 
 Connect to your existing Chrome installation to access saved states and cookies.
