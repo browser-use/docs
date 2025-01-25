@@ -110,7 +110,7 @@ AZURE_OPENAI_KEY=
 
 ## DeepSeek
 
-DeepSeek-R1 is on par with OpenAI-o1 on many tasks
+DeepSeek-V3 is on par with GPT-4o on many tasks
 
 ```python
 from langchain_openai.chat_models.base import BaseChatOpenAI
@@ -120,7 +120,7 @@ import os
 
 # Initialize the model
 llm = BaseChatOpenAI(
-    model='deepseek-reasoner', 
+    model='deepseek-chat', 
     openai_api_key=SecretStr(os.getenv('DEEPSEEK_API_KEY', '')), 
     openai_api_base='https://api.deepseek.com',
 )
